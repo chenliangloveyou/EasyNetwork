@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD2CC3D72041042500EE6607 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC3D62041042500EE6607 /* AppDelegate.m */; };
+		AD2CC3DA2041042500EE6607 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC3D92041042500EE6607 /* ViewController.m */; };
+		AD2CC3DD2041042500EE6607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD2CC3DB2041042500EE6607 /* Main.storyboard */; };
+		AD2CC3DF2041042500EE6607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD2CC3DE2041042500EE6607 /* Assets.xcassets */; };
+		AD2CC3E22041042500EE6607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD2CC3E02041042500EE6607 /* LaunchScreen.storyboard */; };
+		AD2CC3E52041042500EE6607 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC3E42041042500EE6607 /* main.m */; };
+		AD2CC3EF2041042500EE6607 /* EasyNetworkDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC3EE2041042500EE6607 /* EasyNetworkDemoUITests.m */; };
+		AD2CC418204104E500EE6607 /* EasyNetworkResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC3FA204104E500EE6607 /* EasyNetworkResponse.m */; };
+		AD2CC419204104E500EE6607 /* EasyNetworkOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC3FB204104E500EE6607 /* EasyNetworkOptions.m */; };
+		AD2CC41A204104E500EE6607 /* EasyNetworkUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC3FC204104E500EE6607 /* EasyNetworkUtils.m */; };
+		AD2CC41B204104E500EE6607 /* EasyNetworkError.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC3FD204104E500EE6607 /* EasyNetworkError.m */; };
+		AD2CC41C204104E500EE6607 /* EasyNetworkLog.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC3FF204104E500EE6607 /* EasyNetworkLog.m */; };
+		AD2CC41D204104E500EE6607 /* EasyNetwork+GET.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC400204104E500EE6607 /* EasyNetwork+GET.m */; };
+		AD2CC41E204104E500EE6607 /* EasyNetwork+POST.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC403204104E500EE6607 /* EasyNetwork+POST.m */; };
+		AD2CC41F204104E500EE6607 /* EasyNetworkBatchQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC404204104E500EE6607 /* EasyNetworkBatchQueue.m */; };
+		AD2CC420204104E500EE6607 /* EasyNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC406204104E500EE6607 /* EasyNetworkCache.m */; };
+		AD2CC421204104E500EE6607 /* EasyNetworkRequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC40C204104E500EE6607 /* EasyNetworkRequestQueue.m */; };
+		AD2CC422204104E500EE6607 /* EasyNetworkBunchQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC40F204104E500EE6607 /* EasyNetworkBunchQueue.m */; };
+		AD2CC423204104E500EE6607 /* EasyNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC410204104E500EE6607 /* EasyNetworkRequest.m */; };
+		AD2CC424204104E500EE6607 /* EasyNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC412204104E500EE6607 /* EasyNetworkClient.m */; };
+		AD2CC425204104E500EE6607 /* EasyNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC413204104E500EE6607 /* EasyNetwork.m */; };
+		AD2CC426204104E500EE6607 /* EasyNetworkEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC415204104E500EE6607 /* EasyNetworkEnvironment.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD2CC3EB2041042500EE6607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD2CC3CA2041042500EE6607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD2CC3D12041042500EE6607;
+			remoteInfo = EasyNetworkDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD2CC3D22041042500EE6607 /* EasyNetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyNetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD2CC3D52041042500EE6607 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD2CC3D62041042500EE6607 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD2CC3D82041042500EE6607 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD2CC3D92041042500EE6607 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD2CC3DC2041042500EE6607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD2CC3DE2041042500EE6607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD2CC3E12041042500EE6607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD2CC3E32041042500EE6607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD2CC3E42041042500EE6607 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD2CC3EA2041042500EE6607 /* EasyNetworkDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyNetworkDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD2CC3EE2041042500EE6607 /* EasyNetworkDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyNetworkDemoUITests.m; sourceTree = "<group>"; };
+		AD2CC3F02041042500EE6607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD2CC3FA204104E500EE6607 /* EasyNetworkResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNetworkResponse.m; sourceTree = "<group>"; };
+		AD2CC3FB204104E500EE6607 /* EasyNetworkOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNetworkOptions.m; sourceTree = "<group>"; };
+		AD2CC3FC204104E500EE6607 /* EasyNetworkUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNetworkUtils.m; sourceTree = "<group>"; };
+		AD2CC3FD204104E500EE6607 /* EasyNetworkError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNetworkError.m; sourceTree = "<group>"; };
+		AD2CC3FE204104E500EE6607 /* EasyNetworkRequestQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNetworkRequestQueue.h; sourceTree = "<group>"; };
+		AD2CC3FF204104E500EE6607 /* EasyNetworkLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNetworkLog.m; sourceTree = "<group>"; };
+		AD2CC400204104E500EE6607 /* EasyNetwork+GET.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EasyNetwork+GET.m"; sourceTree = "<group>"; };
+		AD2CC401204104E500EE6607 /* EasyNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNetworkRequest.h; sourceTree = "<group>"; };
+		AD2CC402204104E500EE6607 /* EasyNetworkBunchQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNetworkBunchQueue.h; sourceTree = "<group>"; };
+		AD2CC403204104E500EE6607 /* EasyNetwork+POST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EasyNetwork+POST.m"; sourceTree = "<group>"; };
+		AD2CC404204104E500EE6607 /* EasyNetworkBatchQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNetworkBatchQueue.m; sourceTree = "<group>"; };
+		AD2CC405204104E500EE6607 /* EasyNetworkEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNetworkEnvironment.h; sourceTree = "<group>"; };
+		AD2CC406204104E500EE6607 /* EasyNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNetworkCache.m; sourceTree = "<group>"; };
+		AD2CC407204104E500EE6607 /* EasyNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNetwork.h; sourceTree = "<group>"; };
+		AD2CC408204104E500EE6607 /* EasyNetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNetworkClient.h; sourceTree = "<group>"; };
+		AD2CC409204104E500EE6607 /* EasyNetworkOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNetworkOptions.h; sourceTree = "<group>"; };
+		AD2CC40A204104E500EE6607 /* EasyNetworkResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNetworkResponse.h; sourceTree = "<group>"; };
+		AD2CC40B204104E500EE6607 /* EasyNetworkLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNetworkLog.h; sourceTree = "<group>"; };
+		AD2CC40C204104E500EE6607 /* EasyNetworkRequestQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNetworkRequestQueue.m; sourceTree = "<group>"; };
+		AD2CC40D204104E500EE6607 /* EasyNetworkError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNetworkError.h; sourceTree = "<group>"; };
+		AD2CC40E204104E500EE6607 /* EasyNetworkUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNetworkUtils.h; sourceTree = "<group>"; };
+		AD2CC40F204104E500EE6607 /* EasyNetworkBunchQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNetworkBunchQueue.m; sourceTree = "<group>"; };
+		AD2CC410204104E500EE6607 /* EasyNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNetworkRequest.m; sourceTree = "<group>"; };
+		AD2CC411204104E500EE6607 /* EasyNetwork+GET.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EasyNetwork+GET.h"; sourceTree = "<group>"; };
+		AD2CC412204104E500EE6607 /* EasyNetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNetworkClient.m; sourceTree = "<group>"; };
+		AD2CC413204104E500EE6607 /* EasyNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNetwork.m; sourceTree = "<group>"; };
+		AD2CC414204104E500EE6607 /* EasyNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNetworkCache.h; sourceTree = "<group>"; };
+		AD2CC415204104E500EE6607 /* EasyNetworkEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNetworkEnvironment.m; sourceTree = "<group>"; };
+		AD2CC416204104E500EE6607 /* EasyNetworkBatchQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNetworkBatchQueue.h; sourceTree = "<group>"; };
+		AD2CC417204104E500EE6607 /* EasyNetwork+POST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EasyNetwork+POST.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD2CC3CF2041042500EE6607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD2CC3E72041042500EE6607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD2CC3C92041042500EE6607 = {
+			isa = PBXGroup;
+			children = (
+				AD2CC3F9204104E500EE6607 /* EasyNetwork */,
+				AD2CC3D42041042500EE6607 /* EasyNetworkDemo */,
+				AD2CC3ED2041042500EE6607 /* EasyNetworkDemoUITests */,
+				AD2CC3D32041042500EE6607 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD2CC3D32041042500EE6607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD2CC3D22041042500EE6607 /* EasyNetworkDemo.app */,
+				AD2CC3EA2041042500EE6607 /* EasyNetworkDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD2CC3D42041042500EE6607 /* EasyNetworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AD2CC3D52041042500EE6607 /* AppDelegate.h */,
+				AD2CC3D62041042500EE6607 /* AppDelegate.m */,
+				AD2CC3D82041042500EE6607 /* ViewController.h */,
+				AD2CC3D92041042500EE6607 /* ViewController.m */,
+				AD2CC3DB2041042500EE6607 /* Main.storyboard */,
+				AD2CC3DE2041042500EE6607 /* Assets.xcassets */,
+				AD2CC3E02041042500EE6607 /* LaunchScreen.storyboard */,
+				AD2CC3E32041042500EE6607 /* Info.plist */,
+				AD2CC3E42041042500EE6607 /* main.m */,
+			);
+			path = EasyNetworkDemo;
+			sourceTree = "<group>";
+		};
+		AD2CC3ED2041042500EE6607 /* EasyNetworkDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD2CC3EE2041042500EE6607 /* EasyNetworkDemoUITests.m */,
+				AD2CC3F02041042500EE6607 /* Info.plist */,
+			);
+			path = EasyNetworkDemoUITests;
+			sourceTree = "<group>";
+		};
+		AD2CC3F9204104E500EE6607 /* EasyNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				AD2CC407204104E500EE6607 /* EasyNetwork.h */,
+				AD2CC413204104E500EE6607 /* EasyNetwork.m */,
+				AD2CC401204104E500EE6607 /* EasyNetworkRequest.h */,
+				AD2CC410204104E500EE6607 /* EasyNetworkRequest.m */,
+				AD2CC409204104E500EE6607 /* EasyNetworkOptions.h */,
+				AD2CC3FB204104E500EE6607 /* EasyNetworkOptions.m */,
+				AD2CC3FE204104E500EE6607 /* EasyNetworkRequestQueue.h */,
+				AD2CC40C204104E500EE6607 /* EasyNetworkRequestQueue.m */,
+				AD2CC40E204104E500EE6607 /* EasyNetworkUtils.h */,
+				AD2CC3FC204104E500EE6607 /* EasyNetworkUtils.m */,
+				AD2CC408204104E500EE6607 /* EasyNetworkClient.h */,
+				AD2CC412204104E500EE6607 /* EasyNetworkClient.m */,
+				AD2CC40A204104E500EE6607 /* EasyNetworkResponse.h */,
+				AD2CC3FA204104E500EE6607 /* EasyNetworkResponse.m */,
+				AD2CC405204104E500EE6607 /* EasyNetworkEnvironment.h */,
+				AD2CC415204104E500EE6607 /* EasyNetworkEnvironment.m */,
+				AD2CC40D204104E500EE6607 /* EasyNetworkError.h */,
+				AD2CC3FD204104E500EE6607 /* EasyNetworkError.m */,
+				AD2CC40B204104E500EE6607 /* EasyNetworkLog.h */,
+				AD2CC3FF204104E500EE6607 /* EasyNetworkLog.m */,
+				AD2CC414204104E500EE6607 /* EasyNetworkCache.h */,
+				AD2CC406204104E500EE6607 /* EasyNetworkCache.m */,
+				AD2CC416204104E500EE6607 /* EasyNetworkBatchQueue.h */,
+				AD2CC40F204104E500EE6607 /* EasyNetworkBunchQueue.m */,
+				AD2CC404204104E500EE6607 /* EasyNetworkBatchQueue.m */,
+				AD2CC402204104E500EE6607 /* EasyNetworkBunchQueue.h */,
+				AD2CC411204104E500EE6607 /* EasyNetwork+GET.h */,
+				AD2CC400204104E500EE6607 /* EasyNetwork+GET.m */,
+				AD2CC417204104E500EE6607 /* EasyNetwork+POST.h */,
+				AD2CC403204104E500EE6607 /* EasyNetwork+POST.m */,
+			);
+			path = EasyNetwork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD2CC3D12041042500EE6607 /* EasyNetworkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD2CC3F32041042600EE6607 /* Build configuration list for PBXNativeTarget "EasyNetworkDemo" */;
+			buildPhases = (
+				AD2CC3CE2041042500EE6607 /* Sources */,
+				AD2CC3CF2041042500EE6607 /* Frameworks */,
+				AD2CC3D02041042500EE6607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyNetworkDemo;
+			productName = EasyNetworkDemo;
+			productReference = AD2CC3D22041042500EE6607 /* EasyNetworkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD2CC3E92041042500EE6607 /* EasyNetworkDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD2CC3F62041042600EE6607 /* Build configuration list for PBXNativeTarget "EasyNetworkDemoUITests" */;
+			buildPhases = (
+				AD2CC3E62041042500EE6607 /* Sources */,
+				AD2CC3E72041042500EE6607 /* Frameworks */,
+				AD2CC3E82041042500EE6607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD2CC3EC2041042500EE6607 /* PBXTargetDependency */,
+			);
+			name = EasyNetworkDemoUITests;
+			productName = EasyNetworkDemoUITests;
+			productReference = AD2CC3EA2041042500EE6607 /* EasyNetworkDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD2CC3CA2041042500EE6607 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = chenliangloveyou;
+				TargetAttributes = {
+					AD2CC3D12041042500EE6607 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AD2CC3E92041042500EE6607 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD2CC3D12041042500EE6607;
+					};
+				};
+			};
+			buildConfigurationList = AD2CC3CD2041042500EE6607 /* Build configuration list for PBXProject "EasyNetworkDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD2CC3C92041042500EE6607;
+			productRefGroup = AD2CC3D32041042500EE6607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD2CC3D12041042500EE6607 /* EasyNetworkDemo */,
+				AD2CC3E92041042500EE6607 /* EasyNetworkDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD2CC3D02041042500EE6607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2CC3E22041042500EE6607 /* LaunchScreen.storyboard in Resources */,
+				AD2CC3DF2041042500EE6607 /* Assets.xcassets in Resources */,
+				AD2CC3DD2041042500EE6607 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD2CC3E82041042500EE6607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD2CC3CE2041042500EE6607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2CC41A204104E500EE6607 /* EasyNetworkUtils.m in Sources */,
+				AD2CC421204104E500EE6607 /* EasyNetworkRequestQueue.m in Sources */,
+				AD2CC420204104E500EE6607 /* EasyNetworkCache.m in Sources */,
+				AD2CC41C204104E500EE6607 /* EasyNetworkLog.m in Sources */,
+				AD2CC3DA2041042500EE6607 /* ViewController.m in Sources */,
+				AD2CC3E52041042500EE6607 /* main.m in Sources */,
+				AD2CC41E204104E500EE6607 /* EasyNetwork+POST.m in Sources */,
+				AD2CC423204104E500EE6607 /* EasyNetworkRequest.m in Sources */,
+				AD2CC426204104E500EE6607 /* EasyNetworkEnvironment.m in Sources */,
+				AD2CC3D72041042500EE6607 /* AppDelegate.m in Sources */,
+				AD2CC424204104E500EE6607 /* EasyNetworkClient.m in Sources */,
+				AD2CC425204104E500EE6607 /* EasyNetwork.m in Sources */,
+				AD2CC418204104E500EE6607 /* EasyNetworkResponse.m in Sources */,
+				AD2CC422204104E500EE6607 /* EasyNetworkBunchQueue.m in Sources */,
+				AD2CC41B204104E500EE6607 /* EasyNetworkError.m in Sources */,
+				AD2CC419204104E500EE6607 /* EasyNetworkOptions.m in Sources */,
+				AD2CC41D204104E500EE6607 /* EasyNetwork+GET.m in Sources */,
+				AD2CC41F204104E500EE6607 /* EasyNetworkBatchQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD2CC3E62041042500EE6607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2CC3EF2041042500EE6607 /* EasyNetworkDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD2CC3EC2041042500EE6607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD2CC3D12041042500EE6607 /* EasyNetworkDemo */;
+			targetProxy = AD2CC3EB2041042500EE6607 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD2CC3DB2041042500EE6607 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD2CC3DC2041042500EE6607 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD2CC3E02041042500EE6607 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD2CC3E12041042500EE6607 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD2CC3F12041042600EE6607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD2CC3F22041042600EE6607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD2CC3F42041042600EE6607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6E6MDA8TQW;
+				INFOPLIST_FILE = EasyNetworkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenliangloveyou.EasyNetworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD2CC3F52041042600EE6607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6E6MDA8TQW;
+				INFOPLIST_FILE = EasyNetworkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenliangloveyou.EasyNetworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD2CC3F72041042600EE6607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6E6MDA8TQW;
+				INFOPLIST_FILE = EasyNetworkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenliangloveyou.EasyNetworkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyNetworkDemo;
+			};
+			name = Debug;
+		};
+		AD2CC3F82041042600EE6607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6E6MDA8TQW;
+				INFOPLIST_FILE = EasyNetworkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenliangloveyou.EasyNetworkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyNetworkDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD2CC3CD2041042500EE6607 /* Build configuration list for PBXProject "EasyNetworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD2CC3F12041042600EE6607 /* Debug */,
+				AD2CC3F22041042600EE6607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD2CC3F32041042600EE6607 /* Build configuration list for PBXNativeTarget "EasyNetworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD2CC3F42041042600EE6607 /* Debug */,
+				AD2CC3F52041042600EE6607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD2CC3F62041042600EE6607 /* Build configuration list for PBXNativeTarget "EasyNetworkDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD2CC3F72041042600EE6607 /* Debug */,
+				AD2CC3F82041042600EE6607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD2CC3CA2041042500EE6607 /* Project object */;
+}
