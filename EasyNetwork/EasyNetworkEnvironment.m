@@ -11,9 +11,9 @@
 
 @implementation EasyNetworkEnvironment
 
-- (BOOL)isOnlineEnvironment
+- (BOOL)switchEnvironment
 {
-    //默认加载固定的环境，但是可以切换
+    _isOnlineEnvironment = !_isOnlineEnvironment ;
     return _isOnlineEnvironment ;
 }
 
@@ -22,7 +22,7 @@ static EasyNetworkEnvironment *_environmentShare = nil ;
 {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        _environmentShare = [[EasyNetworkEnvironment alloc] init];
+        _environmentShare = [[[self class] alloc] init];
         _environmentShare.isOnlineEnvironment = [EasyNetworkOptions sharedEasyNetworkOptions].defaultIsOnLine ;
     });
     return _environmentShare ;
@@ -39,7 +39,6 @@ static EasyNetworkEnvironment *_environmentShare = nil ;
 {
     return _environmentShare ;
 }
-
 - (id)mutableCopyWithZone:(NSZone *)zone
 {
     return _environmentShare ;

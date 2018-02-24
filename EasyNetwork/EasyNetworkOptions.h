@@ -25,7 +25,7 @@
 //比如 任务A还在请求没有回调 -- 又发出任务A的请求。   是否取消前面一次的任务A请求，保留后一次的请求
 @property (nonatomic,assign)BOOL cancelRepeatRequest ;
 
-//默认是否使用线上环境
+//默认是否使用线上环境   （之后可以在EasyNetwork.h文件中更改环境）
 @property (nonatomic,assign)BOOL defaultIsOnLine ;
 
 //测试地址，正式地址。

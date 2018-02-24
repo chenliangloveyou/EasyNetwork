@@ -32,14 +32,6 @@
     }
     return self ;
 }
-- (BOOL)isOnlineEnvironment
-{
-    return [EasyNetworkEnvironment shareEnvironment].isOnlineEnvironment;
-}
-+ (void)switchEnvironment
-{
-    [EasyNetworkEnvironment shareEnvironment].isOnlineEnvironment = ![EasyNetworkEnvironment shareEnvironment].isOnlineEnvironment ;
-}
 
 
 - (EasyNetworkRequest *)postNetworkToolWithPath:(NSString *)path

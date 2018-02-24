@@ -11,6 +11,7 @@
 #import "EasyNetworkOptions.h"
 
 @implementation EasyNetworkClient
+
 + (instancetype)shareClient
 {
     if ([EasyNetworkEnvironment shareEnvironment].isOnlineEnvironment) {

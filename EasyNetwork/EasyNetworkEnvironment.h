@@ -10,7 +10,20 @@
 
 @interface EasyNetworkEnvironment : NSObject
 
+/**
+ * 单例
+ */
 + (instancetype)shareEnvironment ;
 
-@property (nonatomic,assign)BOOL isOnlineEnvironment ;
+/**
+ * 是否在线上环境
+ */
+ @property BOOL isOnlineEnvironment ;
+
+/**
+ * 切换环境
+ * return 是否在线上环境
+ */
+- (BOOL)switchEnvironment ;
+
 @end

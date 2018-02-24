@@ -85,10 +85,6 @@ typedef void (^EasyNetworkCallback) (EasyNetwork *network , EasyNetworkResponse 
 - (void)cancelEasyNetworkAllRequest ;
 
 
-//是否是在线上环境
-@property (nonatomic,assign,readonly)BOOL isOnlineEnvironment ;
-//切换环境
-+ (void)switchEnvironment ;
 
 @end
 
