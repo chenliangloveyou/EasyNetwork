@@ -10,6 +10,7 @@
 
 #import "AFNetworking.h"
 #import "EasyNetworkClient.h"
+#import "EasyNetworkUtils.h"
 #import "EasyNetworkOptions.h"
 
 static int easynetwork_request_tag = 1 ; //网络请求的tag
@@ -98,7 +99,7 @@ static int easynetwork_request_tag = 1 ; //网络请求的tag
         [self.requestTask resume];
     }
 }
-- (void)startRequestWithDelay:(CGFloat)delayTime
+- (void)startRequestWithDelay:(float)delayTime
 {
     if (delayTime <= 0) {
         [self startRequest];
@@ -116,7 +117,7 @@ static int easynetwork_request_tag = 1 ; //网络请求的tag
         [self.requestTask cancel];
     }
 }
-- (void)cancelRequestWithDelay:(CGFloat)delayTime
+- (void)cancelRequestWithDelay:(float)delayTime
 {
     if (delayTime <= 0) {
         [self cancelRequest];

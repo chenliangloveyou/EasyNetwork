@@ -29,6 +29,22 @@
 		AD2CC424204104E500EE6607 /* EasyNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC412204104E500EE6607 /* EasyNetworkClient.m */; };
 		AD2CC425204104E500EE6607 /* EasyNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC413204104E500EE6607 /* EasyNetwork.m */; };
 		AD2CC426204104E500EE6607 /* EasyNetworkEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC415204104E500EE6607 /* EasyNetworkEnvironment.m */; };
+		AD2CC4372041063000EE6607 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC42C2041063000EE6607 /* AFURLResponseSerialization.m */; };
+		AD2CC4382041063000EE6607 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC42D2041063000EE6607 /* AFNetworkActivityIndicatorManager.m */; };
+		AD2CC4392041063000EE6607 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC42E2041063000EE6607 /* AFHTTPSessionManager.m */; };
+		AD2CC43A2041063000EE6607 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC4302041063000EE6607 /* AFURLSessionManager.m */; };
+		AD2CC43B2041063000EE6607 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC4312041063000EE6607 /* AFURLRequestSerialization.m */; };
+		AD2CC43C2041063000EE6607 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC4332041063000EE6607 /* AFNetworkReachabilityManager.m */; };
+		AD2CC43D2041063000EE6607 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC4342041063000EE6607 /* AFSecurityPolicy.m */; };
+		AD2CC453204106B400EE6607 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC440204106B400EE6607 /* JSONValueTransformer.m */; };
+		AD2CC454204106B400EE6607 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC443204106B400EE6607 /* JSONKeyMapper.m */; };
+		AD2CC455204106B400EE6607 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC445204106B400EE6607 /* JSONModel.m */; };
+		AD2CC456204106B400EE6607 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC446204106B400EE6607 /* JSONModelError.m */; };
+		AD2CC457204106B400EE6607 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC449204106B400EE6607 /* JSONModelClassProperty.m */; };
+		AD2CC458204106B400EE6607 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC44D204106B400EE6607 /* JSONHTTPClient.m */; };
+		AD2CC459204106B400EE6607 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC44E204106B400EE6607 /* JSONAPI.m */; };
+		AD2CC45A204106B400EE6607 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC452204106B400EE6607 /* JSONModel+networking.m */; };
+		AD2CC45D204106D900EE6607 /* BaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2CC45B204106D900EE6607 /* BaseResponse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +101,40 @@
 		AD2CC415204104E500EE6607 /* EasyNetworkEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNetworkEnvironment.m; sourceTree = "<group>"; };
 		AD2CC416204104E500EE6607 /* EasyNetworkBatchQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNetworkBatchQueue.h; sourceTree = "<group>"; };
 		AD2CC417204104E500EE6607 /* EasyNetwork+POST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EasyNetwork+POST.h"; sourceTree = "<group>"; };
+		AD2CC4282041063000EE6607 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		AD2CC4292041063000EE6607 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		AD2CC42A2041063000EE6607 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		AD2CC42B2041063000EE6607 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		AD2CC42C2041063000EE6607 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		AD2CC42D2041063000EE6607 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		AD2CC42E2041063000EE6607 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		AD2CC42F2041063000EE6607 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		AD2CC4302041063000EE6607 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		AD2CC4312041063000EE6607 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		AD2CC4322041063000EE6607 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		AD2CC4332041063000EE6607 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		AD2CC4342041063000EE6607 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		AD2CC4352041063000EE6607 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		AD2CC4362041063000EE6607 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		AD2CC440204106B400EE6607 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		AD2CC441204106B400EE6607 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		AD2CC442204106B400EE6607 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		AD2CC443204106B400EE6607 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		AD2CC445204106B400EE6607 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		AD2CC446204106B400EE6607 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		AD2CC447204106B400EE6607 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		AD2CC448204106B400EE6607 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		AD2CC449204106B400EE6607 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		AD2CC44A204106B400EE6607 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		AD2CC44B204106B400EE6607 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		AD2CC44D204106B400EE6607 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		AD2CC44E204106B400EE6607 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		AD2CC44F204106B400EE6607 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		AD2CC450204106B400EE6607 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		AD2CC451204106B400EE6607 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		AD2CC452204106B400EE6607 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		AD2CC45B204106D900EE6607 /* BaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseResponse.m; sourceTree = "<group>"; };
+		AD2CC45C204106D900EE6607 /* BaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseResponse.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +158,8 @@
 		AD2CC3C92041042500EE6607 = {
 			isa = PBXGroup;
 			children = (
+				AD2CC43E204106B400EE6607 /* JSONModel */,
+				AD2CC4272041063000EE6607 /* AFNetworking */,
 				AD2CC3F9204104E500EE6607 /* EasyNetwork */,
 				AD2CC3D42041042500EE6607 /* EasyNetworkDemo */,
 				AD2CC3ED2041042500EE6607 /* EasyNetworkDemoUITests */,
@@ -127,6 +179,8 @@
 		AD2CC3D42041042500EE6607 /* EasyNetworkDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AD2CC45C204106D900EE6607 /* BaseResponse.h */,
+				AD2CC45B204106D900EE6607 /* BaseResponse.m */,
 				AD2CC3D52041042500EE6607 /* AppDelegate.h */,
 				AD2CC3D62041042500EE6607 /* AppDelegate.m */,
 				AD2CC3D82041042500EE6607 /* ViewController.h */,
@@ -176,14 +230,84 @@
 				AD2CC406204104E500EE6607 /* EasyNetworkCache.m */,
 				AD2CC416204104E500EE6607 /* EasyNetworkBatchQueue.h */,
 				AD2CC40F204104E500EE6607 /* EasyNetworkBunchQueue.m */,
-				AD2CC404204104E500EE6607 /* EasyNetworkBatchQueue.m */,
 				AD2CC402204104E500EE6607 /* EasyNetworkBunchQueue.h */,
+				AD2CC404204104E500EE6607 /* EasyNetworkBatchQueue.m */,
 				AD2CC411204104E500EE6607 /* EasyNetwork+GET.h */,
 				AD2CC400204104E500EE6607 /* EasyNetwork+GET.m */,
 				AD2CC417204104E500EE6607 /* EasyNetwork+POST.h */,
 				AD2CC403204104E500EE6607 /* EasyNetwork+POST.m */,
 			);
 			path = EasyNetwork;
+			sourceTree = "<group>";
+		};
+		AD2CC4272041063000EE6607 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				AD2CC4282041063000EE6607 /* AFSecurityPolicy.h */,
+				AD2CC4292041063000EE6607 /* AFNetworkReachabilityManager.h */,
+				AD2CC42A2041063000EE6607 /* AFURLSessionManager.h */,
+				AD2CC42B2041063000EE6607 /* AFURLRequestSerialization.h */,
+				AD2CC42C2041063000EE6607 /* AFURLResponseSerialization.m */,
+				AD2CC42D2041063000EE6607 /* AFNetworkActivityIndicatorManager.m */,
+				AD2CC42E2041063000EE6607 /* AFHTTPSessionManager.m */,
+				AD2CC42F2041063000EE6607 /* AFURLResponseSerialization.h */,
+				AD2CC4302041063000EE6607 /* AFURLSessionManager.m */,
+				AD2CC4312041063000EE6607 /* AFURLRequestSerialization.m */,
+				AD2CC4322041063000EE6607 /* AFNetworking.h */,
+				AD2CC4332041063000EE6607 /* AFNetworkReachabilityManager.m */,
+				AD2CC4342041063000EE6607 /* AFSecurityPolicy.m */,
+				AD2CC4352041063000EE6607 /* AFHTTPSessionManager.h */,
+				AD2CC4362041063000EE6607 /* AFNetworkActivityIndicatorManager.h */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		AD2CC43E204106B400EE6607 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				AD2CC43F204106B400EE6607 /* JSONModelTransformations */,
+				AD2CC444204106B400EE6607 /* JSONModel */,
+				AD2CC44B204106B400EE6607 /* JSONModelLib.h */,
+				AD2CC44C204106B400EE6607 /* JSONModelNetworking */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		AD2CC43F204106B400EE6607 /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				AD2CC440204106B400EE6607 /* JSONValueTransformer.m */,
+				AD2CC441204106B400EE6607 /* JSONKeyMapper.h */,
+				AD2CC442204106B400EE6607 /* JSONValueTransformer.h */,
+				AD2CC443204106B400EE6607 /* JSONKeyMapper.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+		AD2CC444204106B400EE6607 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				AD2CC445204106B400EE6607 /* JSONModel.m */,
+				AD2CC446204106B400EE6607 /* JSONModelError.m */,
+				AD2CC447204106B400EE6607 /* JSONModelClassProperty.h */,
+				AD2CC448204106B400EE6607 /* JSONModel.h */,
+				AD2CC449204106B400EE6607 /* JSONModelClassProperty.m */,
+				AD2CC44A204106B400EE6607 /* JSONModelError.h */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		AD2CC44C204106B400EE6607 /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				AD2CC44D204106B400EE6607 /* JSONHTTPClient.m */,
+				AD2CC44E204106B400EE6607 /* JSONAPI.m */,
+				AD2CC44F204106B400EE6607 /* JSONModel+networking.h */,
+				AD2CC450204106B400EE6607 /* JSONHTTPClient.h */,
+				AD2CC451204106B400EE6607 /* JSONAPI.h */,
+				AD2CC452204106B400EE6607 /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,22 +413,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD2CC41A204104E500EE6607 /* EasyNetworkUtils.m in Sources */,
+				AD2CC456204106B400EE6607 /* JSONModelError.m in Sources */,
 				AD2CC421204104E500EE6607 /* EasyNetworkRequestQueue.m in Sources */,
 				AD2CC420204104E500EE6607 /* EasyNetworkCache.m in Sources */,
 				AD2CC41C204104E500EE6607 /* EasyNetworkLog.m in Sources */,
+				AD2CC4382041063000EE6607 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				AD2CC3DA2041042500EE6607 /* ViewController.m in Sources */,
+				AD2CC45D204106D900EE6607 /* BaseResponse.m in Sources */,
+				AD2CC43D2041063000EE6607 /* AFSecurityPolicy.m in Sources */,
 				AD2CC3E52041042500EE6607 /* main.m in Sources */,
 				AD2CC41E204104E500EE6607 /* EasyNetwork+POST.m in Sources */,
 				AD2CC423204104E500EE6607 /* EasyNetworkRequest.m in Sources */,
 				AD2CC426204104E500EE6607 /* EasyNetworkEnvironment.m in Sources */,
+				AD2CC4372041063000EE6607 /* AFURLResponseSerialization.m in Sources */,
+				AD2CC454204106B400EE6607 /* JSONKeyMapper.m in Sources */,
 				AD2CC3D72041042500EE6607 /* AppDelegate.m in Sources */,
+				AD2CC4392041063000EE6607 /* AFHTTPSessionManager.m in Sources */,
 				AD2CC424204104E500EE6607 /* EasyNetworkClient.m in Sources */,
+				AD2CC457204106B400EE6607 /* JSONModelClassProperty.m in Sources */,
+				AD2CC458204106B400EE6607 /* JSONHTTPClient.m in Sources */,
 				AD2CC425204104E500EE6607 /* EasyNetwork.m in Sources */,
+				AD2CC43A2041063000EE6607 /* AFURLSessionManager.m in Sources */,
+				AD2CC453204106B400EE6607 /* JSONValueTransformer.m in Sources */,
 				AD2CC418204104E500EE6607 /* EasyNetworkResponse.m in Sources */,
 				AD2CC422204104E500EE6607 /* EasyNetworkBunchQueue.m in Sources */,
+				AD2CC459204106B400EE6607 /* JSONAPI.m in Sources */,
+				AD2CC455204106B400EE6607 /* JSONModel.m in Sources */,
 				AD2CC41B204104E500EE6607 /* EasyNetworkError.m in Sources */,
 				AD2CC419204104E500EE6607 /* EasyNetworkOptions.m in Sources */,
+				AD2CC45A204106B400EE6607 /* JSONModel+networking.m in Sources */,
+				AD2CC43B2041063000EE6607 /* AFURLRequestSerialization.m in Sources */,
 				AD2CC41D204104E500EE6607 /* EasyNetwork+GET.m in Sources */,
+				AD2CC43C2041063000EE6607 /* AFNetworkReachabilityManager.m in Sources */,
 				AD2CC41F204104E500EE6607 /* EasyNetworkBatchQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

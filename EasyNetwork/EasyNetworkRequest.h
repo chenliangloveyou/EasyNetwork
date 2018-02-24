@@ -37,12 +37,12 @@ typedef void (^EasyNetWorkRequestProgress) (EasyNetworkRequest *request , NSProg
 
 //开始请求(delayTime:延迟时间)
 - (void)startRequest ;
-- (void)startRequestWithDelay:(CGFloat)delayTime ;
+- (void)startRequestWithDelay:(float)delayTime ;
 //停止请求(如果需要再次请求，请调用startrequest)
 - (void)stopRequest ;
 //取消请求(delayTime:延迟时间)
 - (void)cancelRequest ;
-- (void)cancelRequestWithDelay:(CGFloat)delayTime ;
+- (void)cancelRequestWithDelay:(float)delayTime ;
 
 //请求地址
 @property (nonatomic,strong,readonly)NSString *requestPath ;
@@ -60,7 +60,7 @@ typedef void (^EasyNetWorkRequestProgress) (EasyNetworkRequest *request , NSProg
 @property (nonatomic,assign)EasyRequestMethod EasyRequestMethod ;
 
 //设置此次请求超时时长 默认:60
-@property (nonatomic,assign)CGFloat EasyRequestTimeoutInterval ;
+@property (nonatomic,assign)float EasyRequestTimeoutInterval ;
 
 //获取请求上传的进度
 @property (nonatomic,strong)EasyNetWorkRequestProgress requestUploadProgress ;

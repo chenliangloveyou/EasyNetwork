@@ -59,7 +59,7 @@
     @try {
         responseModel = [[[parseClass class] alloc] initWithDictionary:responseDict error:&analysisError];
     }@catch (NSException *exception) {
-        EFLog(@"数据解析出错 error:%@ == %@  ==== %@", self,exception,error);
+        NSLog(@"数据解析出错 error:%@ == %@  ==== %@", self,exception,error);
     }
     
     if (nil == responseModel || analysisError) {

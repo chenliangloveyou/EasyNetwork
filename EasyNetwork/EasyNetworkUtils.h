@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+#define kWeakSelf(type)__weak typeof(type)weak##type = type;
+#define kStrongSelf(type)__strong typeof(type)type = weak##type;
+
 @interface EasyNetworkUtils : NSObject
 + (NSString *)commonParametersString ;
 + (NSString *)URLString:(NSString *)orginalString appendingQueryString:(NSString *)queryString ;
